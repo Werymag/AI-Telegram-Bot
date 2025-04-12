@@ -113,3 +113,14 @@ telegram.error.BadRequest: Can't parse entities: can't find end of the entity st
 2025-04-12 19:50:08,982 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getMe "HTTP/1.1 200 OK"
 2025-04-12 19:50:08,983 - INFO - Бот инициализирован.
 2025-04-12 19:50:08,983 - INFO - Бот начал прослушивание сообщений...
+2025-04-12 19:50:19,154 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:50:30,214 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:50:41,280 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:50:52,349 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:51:03,423 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:51:14,481 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:51:25,548 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:51:36,611 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:51:47,678 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:51:58,752 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:52:09,811 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
