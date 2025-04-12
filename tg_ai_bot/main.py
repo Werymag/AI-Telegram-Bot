@@ -42,6 +42,13 @@ async def echo_messages(config):
                 messages.extend(new_messages)
                 logging.info(f"Получено {len(new_messages)} новых сообщений. Общее количество необработанных: {updates_counter}")
 
+
+            if len(new_messages) > 0:
+                commands = [message for message in new_messages if message['text'].startswith('/')]
+                if commands:                
+                    await process_commands(commands, config)
+                    
+
             # Проверяем, обращено ли сообщение к боту
             messages_to_bot = [message for message in new_messages if message['is_bot_mention'] or message['is_reply_to_bot']]
             if len(messages_to_bot) > 0:
@@ -184,7 +191,7 @@ async def questions_for_bot(messages_to_bot, messages, config):
             await config.bot.send_message(
                 chat_id=chat_id,
                 text=ai_response_content,
-                parse_mode=ParseMode.MARKDOWN,
+                parse_mode=ParseMode.HTML,
                 disable_notification=True
             )
             logging.info(f"Ответ ИИ успешно отправлен {user}.")
@@ -207,7 +214,7 @@ async def analyze_and_send_response(messages, config):
         logging.warning("Попытка анализа пустого списка сообщений.")
         return
 
-    chat_id = messages[0]['chat_id'] # Предполагаем, что все сообщения из одного чата
+    chat_id = messages[-1]['chat_id'] # Предполагаем, что все сообщения из одного чата
     logging.info(f"Анализ диалога для чата {chat_id}. Количество сообщений: {len(messages)}.")
     try:
         ollama_messages = []
@@ -248,7 +255,7 @@ async def analyze_and_send_response(messages, config):
         await config.bot.send_message(
             chat_id=chat_id,
             text=ai_response_content,
-            parse_mode=ParseMode.MARKDOWN,
+            parse_mode=ParseMode.HTML,
             disable_notification=True
         )
         logging.info(f"Результат анализа успешно отправлен в чат {chat_id}.")
@@ -266,12 +273,60 @@ async def analyze_and_send_response(messages, config):
         except Exception as send_error:
             logging.error(f"Не удалось отправить сообщение об ошибке анализа в чат {chat_id}: {send_error}", exc_info=True)
 
+
+async def process_commands(commands, config):
+    logging.info(f"Обработка {len(commands)} команд...")
+    for command_message in commands:
+        user = command_message['user']
+        chat_id = command_message['chat_id']
+        command_text = command_message['message']
+        logging.info(f"Получена команда '{command_text}' от {user} в чате {chat_id}")
+        
+        try:
+            if command_text.startswith('/bot_help'):
+                response_text = "Список команд:\n"
+                response_text += "/bot_show - показать информацию о модели\n"
+                response_text += "/bot_ps - показать список запущенных моделей\n"
+                response_text += "/bot_list - показать список доступных моделей\n"
+                response_text += "/bot_pull - скачать модель\n"
+                response_text += "/bot_push - загрузить модель\n"
+                response_text += "/bot_system_prompt - показать системный промт\n"
+                response_text += "/bot_set_system_prompt - изменить системный промт\n"
+            elif command_text.startswith('/bot_show'):
+                response_text = ollama_client.show(model=config.model_name)
+            elif command_text.startswith('/bot_ps'):
+                response_text = ollama_client.ps()
+            elif command_text.startswith('/bot_list'):
+                response_text = ollama_client.list()
+            elif command_text.startswith('/bot_pull'):
+                response_text = ollama_client.pull(model=config.model_name)
+            elif command_text.startswith('/bot_push'):
+                response_text = ollama_client.push(model=config.model_name)
+            elif command_text.startswith('/bot_system_prompt'):
+                response_text = config.bot_prompt
+            elif command_text.startswith('/bot_set_system_prompt'):
+                config.bot_prompt = command_text.split(' ')[1]
+                response_text = f"Системный промт успешно изменен."
+            elif command_text.startswith('/bot_set_model'):
+                config.model_name = command_text.split(' ')[1]
+                response_text = f"Модель успешно изменена на {config.model_name}."
+            else:
+                response_text = f"Команда '{command_text}' пока не поддерживается."
+
+            await config.bot.send_message(
+                chat_id=chat_id,
+                text=response_text,
+                disable_notification=True
+            )
+            logging.info(f"Ответ на команду '{command_text}' отправлен {user}.")
+        except Exception as e:
+            logging.error(f"Ошибка при обработке команды '{command_text}' от {user}: {e}", exc_info=True)
+
+
 # Запуск основной логики.
 if __name__ == "__main__":
     try:
         asyncio.run(main(path_to_config))
-    except KeyboardInterrupt:
-        logging.info("Приложение остановлено вручную (KeyboardInterrupt).")
     except Exception as global_error:
         logging.critical(f"Критическая неперехваченная ошибка в __main__: {global_error}", exc_info=True)
     finally:

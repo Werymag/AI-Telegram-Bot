@@ -16,7 +16,7 @@ services:
     # Сначала запускаем сервер в фоне, ждем пока он ответит, потом скачиваем модель и ждем завершения фонового процесса
     entrypoint: ["sh", "-c"]
     # запустить сервер в фоновом режиме, подождать немного (или пока сервер не ответит), а затем выполнить команду pull.
-    command: ['ollama serve & echo "Waiting for Ollama server..." && while ! ollama list > /dev/null 2>&1; do sleep 1; done && echo "Ollama ready. Pulling model..." && ollama pull gemma3:12b && echo "Pull complete. Server running." && wait']
+    command: ['ollama serve & echo "Waiting for Ollama server..." && while ! ollama list > /dev/null 2>&1; do sleep 1; done && echo "Ollama ready. Pulling model..." && ollama pull ${MODEL_NAME} && echo "Pull complete. Server running." && wait']
 
   app:
     build: ./tg_ai_bot # Собираем образ из Dockerfile в текущем каталоге
@@ -24,8 +24,8 @@ services:
     # Передаем переменную окружения с адресом Ollama
     environment:
       - OLLAMA_HOST=http://ollama_tg:11434 # Используем имя сервиса вместо localhost
-      - TELEGRAM_TOKEN=5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0 # Раскомментируй, если хочешь передавать токен так
-      - MODEL_NAME=gemma3:12b
+      - TELEGRAM_TOKEN=${TELEGRAM_TOKEN} # Раскомментируй, если хочешь передавать токен так
+      - MODEL_NAME=${MODEL_NAME}
       - PYTHONUNBUFFERED=1
     volumes: # Добавляем монтирование папки логов
       - ./logs:/app/logs
