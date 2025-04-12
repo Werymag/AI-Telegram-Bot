@@ -3,6 +3,7 @@ from telegram.constants import ParseMode
 import time
 import ollama
 from bot_config import BotConfig
+from helpers import format_object_for_telegram
 import os
 import logging
 import re 
@@ -43,11 +44,13 @@ async def echo_messages(config):
                 logging.info(f"Получено {len(new_messages)} новых сообщений. Общее количество необработанных: {updates_counter}")
 
 
+            # Обрабатываем команды
             if len(new_messages) > 0:
-                commands = [message for message in new_messages if message['text'].startswith('/')]
+                commands = [message for message in new_messages if message['message'].startswith('/')]
                 if commands:                
                     await process_commands(commands, config)
-                    
+                    # Удаляем команды из списка новых сообщений, чтобы они не обрабатывались дальше
+                    new_messages = [msg for msg in new_messages if msg not in commands]                                 
 
             # Проверяем, обращено ли сообщение к боту
             messages_to_bot = [message for message in new_messages if message['is_bot_mention'] or message['is_reply_to_bot']]
@@ -279,48 +282,78 @@ async def process_commands(commands, config):
     for command_message in commands:
         user = command_message['user']
         chat_id = command_message['chat_id']
-        command_text = command_message['message']
+        command_text = re.sub(r'@{config.bot_username}\s*', '', command_message['message']) # Удаляем имя бота из команды
         logging.info(f"Получена команда '{command_text}' от {user} в чате {chat_id}")
-        
+
+        response_messages = [] 
+        send_formatted = False 
+        data_to_format = None 
+
         try:
             if command_text.startswith('/bot_help'):
-                response_text = "Список команд:\n"
-                response_text += "/bot_show - показать информацию о модели\n"
-                response_text += "/bot_ps - показать список запущенных моделей\n"
-                response_text += "/bot_list - показать список доступных моделей\n"
-                response_text += "/bot_pull - скачать модель\n"
-                response_text += "/bot_push - загрузить модель\n"
-                response_text += "/bot_system_prompt - показать системный промт\n"
-                response_text += "/bot_set_system_prompt - изменить системный промт\n"
+                help_text = "Список команд:\n"
+                help_text += "/bot_show - показать информацию о модели\n"
+                help_text += "/bot_ps - показать список запущенных моделей\n"
+                help_text += "/bot_list - показать список доступных моделей\n"
+                help_text += "/bot_system_prompt - показать системный промт\n"
+                help_text += "/bot_set_system_prompt [новый промт] - изменить системный промт\n"
+                help_text += "/bot_set_model [имя модели] - изменить модель ИИ\n"
+                response_messages.append(help_text)
             elif command_text.startswith('/bot_show'):
-                response_text = ollama_client.show(model=config.model_name)
+                data_to_format = ollama_client.show(model=config.model_name)
+                send_formatted = True
             elif command_text.startswith('/bot_ps'):
-                response_text = ollama_client.ps()
+                data_to_format = ollama_client.ps()
+                send_formatted = True
             elif command_text.startswith('/bot_list'):
-                response_text = ollama_client.list()
-            elif command_text.startswith('/bot_pull'):
-                response_text = ollama_client.pull(model=config.model_name)
-            elif command_text.startswith('/bot_push'):
-                response_text = ollama_client.push(model=config.model_name)
+                data_to_format = ollama_client.list()
+                send_formatted = True
             elif command_text.startswith('/bot_system_prompt'):
-                response_text = config.bot_prompt
+                data_to_format = {"system_prompt": config.bot_prompt}
+                send_formatted = True
             elif command_text.startswith('/bot_set_system_prompt'):
-                config.bot_prompt = command_text.split(' ')[1]
-                response_text = f"Системный промт успешно изменен."
+                try:
+                    new_prompt = command_text.split(' ', 1)[1]
+                    config.bot_prompt = new_prompt
+                    response_messages.append(f"Системный промт успешно изменен.")
+                except IndexError:
+                    response_messages.append("Ошибка: Не указан новый системный промт. Используйте: /bot_set_system_prompt [текст промпта]")
             elif command_text.startswith('/bot_set_model'):
-                config.model_name = command_text.split(' ')[1]
-                response_text = f"Модель успешно изменена на {config.model_name}."
+                try:
+                    new_model = command_text.split(' ', 1)[1]
+                    config.model_name = new_model
+                    response_messages.append(f"Модель успешно изменена на {config.model_name}.")
+                except IndexError:
+                    response_messages.append("Ошибка: Не указано имя модели. Используйте: /bot_set_model [имя модели]")
             else:
-                response_text = f"Команда '{command_text}' пока не поддерживается."
+                response_messages.append(f"Команда '{command_text}' пока не поддерживается.")
 
-            await config.bot.send_message(
-                chat_id=chat_id,
-                text=response_text,
-                disable_notification=True
-            )
-            logging.info(f"Ответ на команду '{command_text}' отправлен {user}.")
+            # Если нужно форматировать объект
+            if send_formatted and data_to_format is not None:
+                response_messages = format_object_for_telegram(data_to_format)
+            elif send_formatted and data_to_format is None:
+                 response_messages.append("Не удалось получить данные для форматирования.")
+
+            # Отправляем все подготовленные сообщения
+            for msg_part in response_messages:
+                await config.bot.send_message(
+                    chat_id=chat_id,
+                    text=msg_part,
+                    parse_mode=ParseMode.HTML, # Используем HTML для <pre><code>
+                    disable_notification=True
+                )
+            logging.info(f"Ответ на команду '{command_text}' ({len(response_messages)} частей) отправлен {user}.")
+
         except Exception as e:
             logging.error(f"Ошибка при обработке команды '{command_text}' от {user}: {e}", exc_info=True)
+            try:
+                await config.bot.send_message(
+                    chat_id=chat_id,
+                    text=f"Произошла ошибка при выполнении команды: {e}",
+                    disable_notification=True
+                )
+            except Exception as send_error:
+                logging.error(f"Не удалось отправить сообщение об ошибке команды пользователю {user}: {send_error}")
 
 
 # Запуск основной логики.
