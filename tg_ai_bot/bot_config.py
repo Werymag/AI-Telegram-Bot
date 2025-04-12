@@ -15,7 +15,7 @@ class BotConfig:
         self.bot_prompt = None
 
     async def initialize_bot(self):
-        token = os.environ.get('TELEGRAM_TOKEN', '5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0')
+        token = os.environ.get('TELEGRAM_TOKEN')
         model_name = os.environ.get('MODEL_NAME', 'deepseek-r1:14b')
         self.model_name = model_name
         self.tg_token = token
