@@ -5,12 +5,11 @@ import ollama
 from bot_config import BotConfig
 import os
 import logging
-
+import re 
+import random
 # Загрузка конфигурации из JSON файла
 path_to_config = 'config.json'
-current_date = time.strftime("%Y-%m-%d") 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', filename=f'logs/app_{current_date}.log')
-
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', filename=f'logs/bot_{time.strftime("%Y-%m-%d")}.log')
 logging.info("Приложение запущено!")
 
 # Получаем адрес Ollama из переменной окружения,
@@ -50,7 +49,7 @@ async def echo_messages(config):
                 await questions_for_bot(messages_to_bot, messages, config)
 
             # Проверяем, прошла ли минута с последнего сообщения и набралось 30 сообщений
-            if updates_counter > 30 and time.time() - last_message_time >= 60:
+            if updates_counter > random.randint(5, 40):
                 logging.info(f"Накопилось {updates_counter} сообщений и прошло >= 60 сек. Запуск анализа диалога.")
                 await analyze_and_send_response(messages, config)
                 updates_counter = 0; # Сбрасываем счетчик после анализа
@@ -117,8 +116,6 @@ async def get_updates(config):
                  config.last_update_id = new_last_update_id
                  logging.debug(f"Последний update_id обновлен: {config.last_update_id}")
 
-    except asyncio.TimeoutError:
-        logging.debug("Тайм-аут при получении обновлений (get_updates).")
     except Exception as e:
         logging.error(f"Ошибка при получении обновлений (get_updates): {e}", exc_info=True)
         # Не возвращаем пустой список, чтобы не терять last_update_id при временной ошибке сети
@@ -151,14 +148,7 @@ async def questions_for_bot(messages_to_bot, messages, config):
 
             # Добавляем диалог в список сообщений для ИИ
             dialog = "\n".join([f"{msg['user']}: {msg['message']}" for msg in messages if msg.get('message')]) # Используем .get для безопасности
-            system_prompt = (
-                f"Ты телеграм бот с именем {config.bot_username}, помогающий разрешать споры и анализировать диалоги. "
-                "Ты отвечаешь на вопросы пользователей или отвечаешь, когда тебя упоминают в диалоге. "
-                "При ответе учитывай контекст диалога. Диалог представляет из себя список сообщений, где сначала написаны никнеймы, затем их сообщения. "
-                "Не цитируй сообщения и диалог в своем ответе. "
-                "Оформляй ответы с учётом вставки в чат Telegram и разметкой в стиле MARKDOWN. "
-                f"Далее идёт диалог между пользователями: {dialog}"
-            )
+            system_prompt = (f"{config.bot_prompt}.\nДалее идёт диалог между пользователями: {dialog}")
             ollama_messages.append({
                     "role": "system",
                     "content": system_prompt
@@ -168,14 +158,18 @@ async def questions_for_bot(messages_to_bot, messages, config):
             user_history_for_ollama = config.users_conversation_history[user][-20:] # Берем последние 20
             ollama_messages.extend(user_history_for_ollama)
             logging.debug(f"Сформировано {len(ollama_messages)} сообщений для Ollama ({len(user_history_for_ollama)} от {user}).")
-            logging.info(f"Текст сообщений для Ollama: {ollama_messages}")
+            logging.info(f"Текст сообщений для Ollama, модель {config.model_name}: {ollama_messages}")
+            
+            
             response = ollama_client.chat(
                 model=config.model_name,
                 messages=ollama_messages,
                 stream=False
-            )
-
-            ai_response_content = response['message']['content']
+            )            
+            
+            # Удаляем текст "<think>...</think>" из ответа
+            ai_response_content = re.sub(r'<think>.*?</think>', '', response['message']['content'], flags=re.DOTALL).strip()
+            
             logging.info(f"Получен ответ от ИИ для {user}: \"{ai_response_content[:50]}...\"")
 
             # Добавляем ответ ИИ в историю сообщений пользователя
@@ -190,7 +184,8 @@ async def questions_for_bot(messages_to_bot, messages, config):
             await config.bot.send_message(
                 chat_id=chat_id,
                 text=ai_response_content,
-                parse_mode=ParseMode.MARKDOWN
+                parse_mode=ParseMode.MARKDOWN,
+                disable_notification=True
             )
             logging.info(f"Ответ ИИ успешно отправлен {user}.")
 
@@ -200,7 +195,8 @@ async def questions_for_bot(messages_to_bot, messages, config):
                 # Попытка уведомить пользователя об ошибке
                 await config.bot.send_message(
                     chat_id=chat_id,
-                    text="Извините, произошла ошибка при обработке вашего сообщения."
+                    text="Извините, произошла ошибка при обработке вашего сообщения.",
+                    disable_notification=True
                 )
             except Exception as send_error:
                 logging.error(f"Не удалось отправить сообщение об ошибке пользователю {user} в чат {chat_id}: {send_error}", exc_info=True)
@@ -222,13 +218,8 @@ async def analyze_and_send_response(messages, config):
              logging.warning(f"Диалог для анализа в чате {chat_id} пуст после фильтрации. Анализ отменен.")
              return
 
-        system_prompt = (
-            f"Ты телеграм бот с именем {config.bot_username}, помогающий разрешать споры и анализировать диалоги. "
-            "Пиши только выводы. Сделай выводы о диалоге. Если это спор, проанализируй аргументы участников, оцени их качество и сделай вывод, чья позиция аргументирована лучше. Не учитывай собственные сообщения бота. "
-            "Выскажи своё мнение о обсуждаемом вопросе, если это уместно. Если диалог не спор, просто сделай выводы. "
-            "Не цитируй сообщения и диалог. "
-            "Оформляй ответы с учётом вставки в чат Telegram и разметкой MARKDOWN. "
-            f"Далее идёт диалог для анализа: {dialog}"
+        system_prompt = (f"{config.bot_prompt}.\nВыскажи своё мнение о обсуждаемом вопросе, если это уместно. Если диалог не спор, просто поучавствуй в разговоре или пошути."
+                        f"Далее идёт диалог для анализа: {dialog}"
         )
         ollama_messages.append({
             "role": "system",
@@ -246,8 +237,10 @@ async def analyze_and_send_response(messages, config):
             messages=ollama_messages,
             stream=False
         )
-
-        ai_response_content = response['message']['content']
+        
+        # Удаляем текст "<think>...</think>" из ответа
+        ai_response_content = re.sub(r'<think>.*?</think>', '', response['message']['content'], flags=re.DOTALL).strip()
+        
         logging.info(f"Получен результат анализа от ИИ для чата {chat_id}: \"{ai_response_content[:50]}...\"")
 
         # Отправляем ответ в чат
@@ -255,7 +248,8 @@ async def analyze_and_send_response(messages, config):
         await config.bot.send_message(
             chat_id=chat_id,
             text=ai_response_content,
-            parse_mode=ParseMode.MARKDOWN
+            parse_mode=ParseMode.MARKDOWN,
+            disable_notification=True
         )
         logging.info(f"Результат анализа успешно отправлен в чат {chat_id}.")
 
@@ -265,7 +259,8 @@ async def analyze_and_send_response(messages, config):
             # Попытка уведомить чат об ошибке анализа
             await config.bot.send_message(
                 chat_id=chat_id,
-                text="Извините, произошла ошибка при анализе диалога."
+                text="Извините, произошла ошибка при анализе диалога.",
+                disable_notification=True
             )
             logging.info(f"Сообщение об ошибке анализа отправлено в чат {chat_id}.")
         except Exception as send_error:

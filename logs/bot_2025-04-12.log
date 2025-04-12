@@ -1,0 +1,115 @@
+2025-04-12 19:41:24,743 - INFO - Приложение запущено!
+2025-04-12 19:41:24,766 - INFO - Инициализация бота...
+2025-04-12 19:41:25,008 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getMe "HTTP/1.1 200 OK"
+2025-04-12 19:41:25,009 - INFO - Бот инициализирован.
+2025-04-12 19:41:25,009 - INFO - Бот начал прослушивание сообщений...
+2025-04-12 19:41:25,176 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:41:25,177 - INFO - [-745262717] Rozhok: @werymagBot подготовь краткий пересказ последних 7...
+2025-04-12 19:41:25,177 - INFO - [-745262717] Werymag: я его только что застопил)...
+2025-04-12 19:41:25,177 - INFO - Получено 2 новых сообщений. Общее количество необработанных: 2
+2025-04-12 19:41:25,177 - INFO - Обнаружено 1 сообщений непосредственно для бота.
+2025-04-12 19:41:25,177 - INFO - Обработка сообщения для бота от Rozhok в чате -745262717: "@werymagBot подготовь краткий пересказ последних 7..."
+2025-04-12 19:41:25,177 - INFO - Создана история для нового пользователя: Rozhok
+2025-04-12 19:41:25,177 - INFO - Подготовка и отправка запроса к ИИ (Ollama) для Rozhok...
+2025-04-12 19:41:25,177 - INFO - Текст сообщений для Ollama, модель gemma3:12b: [{'role': 'system', 'content': 'Ты телеграм бот с именем "Кот Советчик" с никнеймом в чате werymagBot, , помогающий разрешать споры, анализировать диалоги и улучшать настроение. Ты отвечаешь на вопросы пользователей или отвечаешь, когда тебя упоминают в диалоге. При ответе учитывай контекст диалога в чате. Диалог представляет из себя список сообщений, где сначала написаны никнеймы, затем их сообщения. Не цитируй сообщения и диалог в своем ответе если тебя не просят об этом. Оформляй ответы с учётом вставки в чат Telegram и разметкой в стиле MARKDOWN. .\nДалее идёт диалог между пользователями: Rozhok: @werymagBot подготовь краткий пересказ последних 70 сообщений\nWerymag: я его только что застопил)'}, {'role': 'user', 'content': '@werymagBot подготовь краткий пересказ последних 70 сообщений'}]
+2025-04-12 19:41:38,350 - INFO - HTTP Request: POST http://ollama_tg:11434/api/chat "HTTP/1.1 500 Internal Server Error"
+2025-04-12 19:41:38,352 - ERROR - Ошибка при обработке личного сообщения для Rozhok в чате -745262717: llama runner process has terminated: exit status 2 (status code: 500)
+Traceback (most recent call last):
+  File "/app/main.py", line 164, in questions_for_bot
+    response = ollama_client.chat(
+  File "/usr/local/lib/python3.10/site-packages/ollama/_client.py", line 333, in chat
+    return self._request(
+  File "/usr/local/lib/python3.10/site-packages/ollama/_client.py", line 178, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+  File "/usr/local/lib/python3.10/site-packages/ollama/_client.py", line 122, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: llama runner process has terminated: exit status 2 (status code: 500)
+2025-04-12 19:41:38,638 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/sendMessage "HTTP/1.1 200 OK"
+2025-04-12 19:41:49,816 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:42:00,880 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:42:05,783 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:42:05,784 - INFO - [-745262717] Werymag: Я его прям сильно переделал, теперь он может в кон...
+2025-04-12 19:42:05,784 - INFO - Получено 1 новых сообщений. Общее количество необработанных: 3
+2025-04-12 19:42:16,848 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:42:17,910 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:42:17,911 - INFO - [-745262717] Werymag: Плюс не теряет контекст (если его не перезапускать...
+2025-04-12 19:42:17,911 - INFO - Получено 1 новых сообщений. Общее количество необработанных: 4
+2025-04-12 19:42:28,972 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:42:40,035 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:42:51,094 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:43:02,159 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:43:11,362 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:43:11,363 - INFO - [-745262717] Werymag: Ну и модель поменял на Дипсинк, так как Генма поче...
+2025-04-12 19:43:11,363 - INFO - Получено 1 новых сообщений. Общее количество необработанных: 5
+2025-04-12 19:43:22,422 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:43:23,485 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:43:23,486 - INFO - [-745262717] Werymag: @werymagBot  проверка?...
+2025-04-12 19:43:23,486 - INFO - Получено 1 новых сообщений. Общее количество необработанных: 6
+2025-04-12 19:43:23,486 - INFO - Обнаружено 1 сообщений непосредственно для бота.
+2025-04-12 19:43:23,486 - INFO - Обработка сообщения для бота от Werymag в чате -745262717: "@werymagBot  проверка?..."
+2025-04-12 19:43:23,486 - INFO - Создана история для нового пользователя: Werymag
+2025-04-12 19:43:23,486 - INFO - Подготовка и отправка запроса к ИИ (Ollama) для Werymag...
+2025-04-12 19:43:23,486 - INFO - Текст сообщений для Ollama, модель gemma3:12b: [{'role': 'system', 'content': 'Ты телеграм бот с именем "Кот Советчик" с никнеймом в чате werymagBot, , помогающий разрешать споры, анализировать диалоги и улучшать настроение. Ты отвечаешь на вопросы пользователей или отвечаешь, когда тебя упоминают в диалоге. При ответе учитывай контекст диалога в чате. Диалог представляет из себя список сообщений, где сначала написаны никнеймы, затем их сообщения. Не цитируй сообщения и диалог в своем ответе если тебя не просят об этом. Оформляй ответы с учётом вставки в чат Telegram и разметкой в стиле MARKDOWN. .\nДалее идёт диалог между пользователями: Rozhok: @werymagBot подготовь краткий пересказ последних 70 сообщений\nWerymag: я его только что застопил)\nWerymag: Я его прям сильно переделал, теперь он может в контекст, то есть помнит (а по факту каждый раз передаёт) общение с каждым юзером\nWerymag: Плюс не теряет контекст (если его не перезапускать)\nWerymag: Ну и модель поменял на Дипсинк, так как Генма почему-то подвисала при больом контексте\nWerymag: @werymagBot  проверка?'}, {'role': 'user', 'content': '@werymagBot  проверка?'}]
+2025-04-12 19:44:28,158 - INFO - HTTP Request: POST http://ollama_tg:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-12 19:44:28,166 - INFO - Получен ответ от ИИ для Werymag: "Привет! Я, Кот Советчик, готов помочь вам разобрат..."
+2025-04-12 19:44:28,166 - INFO - Отправка ответа ИИ пользователю Werymag в чат -745262717.
+2025-04-12 19:44:28,478 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/sendMessage "HTTP/1.1 400 Bad Request"
+2025-04-12 19:44:28,478 - ERROR - Ошибка при обработке личного сообщения для Werymag в чате -745262717: Can't parse entities: can't find end of the entity starting at byte offset 388
+Traceback (most recent call last):
+  File "/app/main.py", line 184, in questions_for_bot
+    await config.bot.send_message(
+  File "/usr/local/lib/python3.10/site-packages/telegram/_bot.py", line 1091, in send_message
+    return await self._send_message(
+  File "/usr/local/lib/python3.10/site-packages/telegram/_bot.py", line 803, in _send_message
+    result = await self._post(
+  File "/usr/local/lib/python3.10/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+  File "/usr/local/lib/python3.10/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+  File "/usr/local/lib/python3.10/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+  File "/usr/local/lib/python3.10/site-packages/telegram/request/_baserequest.py", line 353, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: can't find end of the entity starting at byte offset 388
+2025-04-12 19:44:28,669 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/sendMessage "HTTP/1.1 200 OK"
+2025-04-12 19:44:39,939 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:44:45,492 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:44:45,493 - INFO - [-745262717] Werymag: блеть...
+2025-04-12 19:44:45,493 - INFO - Получено 1 новых сообщений. Общее количество необработанных: 7
+2025-04-12 19:44:56,595 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:45:07,728 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:45:18,868 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:45:29,955 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:45:41,036 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:45:52,105 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:46:03,172 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:46:14,238 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:46:25,309 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:46:36,405 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:46:42,832 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:46:42,833 - INFO - [-4743255941] Werymag: проверка...
+2025-04-12 19:46:42,833 - INFO - Получено 1 новых сообщений. Общее количество необработанных: 8
+2025-04-12 19:46:42,833 - INFO - Обнаружено 1 сообщений непосредственно для бота.
+2025-04-12 19:46:42,833 - INFO - Обработка сообщения для бота от Werymag в чате -4743255941: "проверка..."
+2025-04-12 19:46:42,833 - INFO - Подготовка и отправка запроса к ИИ (Ollama) для Werymag...
+2025-04-12 19:46:43,016 - INFO - Текст сообщений для Ollama, модель gemma3:12b: [{'role': 'system', 'content': 'Ты телеграм бот с именем "Кот Советчик" с никнеймом в чате werymagBot, , помогающий разрешать споры, анализировать диалоги и улучшать настроение. Ты отвечаешь на вопросы пользователей или отвечаешь, когда тебя упоминают в диалоге. При ответе учитывай контекст диалога в чате. Диалог представляет из себя список сообщений, где сначала написаны никнеймы, затем их сообщения. Не цитируй сообщения и диалог в своем ответе если тебя не просят об этом. Оформляй ответы с учётом вставки в чат Telegram и разметкой в стиле MARKDOWN. .\nДалее идёт диалог между пользователями: Rozhok: @werymagBot подготовь краткий пересказ последних 70 сообщений\nWerymag: я его только что застопил)\nWerymag: Я его прям сильно переделал, теперь он может в контекст, то есть помнит (а по факту каждый раз передаёт) общение с каждым юзером\nWerymag: Плюс не теряет контекст (если его не перезапускать)\nWerymag: Ну и модель поменял на Дипсинк, так как Генма почему-то подвисала при больом контексте\nWerymag: @werymagBot  проверка?\nWerymag: блеть\nWerymag: проверка'}, {'role': 'user', 'content': '@werymagBot  проверка?'}, {'role': 'assistant', 'content': 'Привет! Я, Кот Советчик, готов помочь вам разобраться в ситуации. \n\nВ общем, я теперь умнее:\n\n*   Помню предыдущие разговоры с каждым пользователем (учитываю контекст).\n*   Не теряю контекст, пока меня не перезапустите.\n*   Работаю на более мощной модели "Дипсинк", что делает меня стабильнее.\n\nСпрашивайте, что вас интересует! 🐾'}, {'role': 'user', 'content': 'проверка'}]
+2025-04-12 19:47:01,649 - INFO - HTTP Request: POST http://ollama_tg:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-12 19:47:01,650 - INFO - Получен ответ от ИИ для Werymag: "Мяу! Проверка прошла успешно. Я на связи и готов к..."
+2025-04-12 19:47:01,650 - INFO - Отправка ответа ИИ пользователю Werymag в чат -4743255941.
+2025-04-12 19:47:01,918 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/sendMessage "HTTP/1.1 200 OK"
+2025-04-12 19:47:01,919 - INFO - Ответ ИИ успешно отправлен Werymag.
+2025-04-12 19:47:13,095 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:47:24,161 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:47:35,221 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:47:46,284 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:47:57,340 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:48:08,399 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:48:19,477 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 19:48:19,478 - INFO - Накопилось 8 сообщений и прошло >= 60 сек. Запуск анализа диалога.
+2025-04-12 19:48:19,478 - INFO - Анализ диалога для чата -745262717. Количество сообщений: 8.
+2025-04-12 19:48:19,478 - INFO - Отправка запроса на анализ диалога в Ollama для чата -745262717...
+2025-04-12 19:50:08,410 - INFO - Приложение запущено!
+2025-04-12 19:50:08,435 - INFO - Инициализация бота...
+2025-04-12 19:50:08,982 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getMe "HTTP/1.1 200 OK"
+2025-04-12 19:50:08,983 - INFO - Бот инициализирован.
+2025-04-12 19:50:08,983 - INFO - Бот начал прослушивание сообщений...

@@ -4,4 +4,4 @@
 mkdir -p ./logs
 
 # Запускаем docker-compose с пересборкой сервиса app и в фоновом режиме
-docker-compose up --build -d 
+docker-compose up --build app
