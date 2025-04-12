@@ -1,0 +1,1942 @@
+2025-04-12 20:41:53,094 - INFO - Приложение запущено!
+2025-04-12 20:41:54,085 - INFO - Инициализация бота...
+2025-04-12 20:41:56,380 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getMe "HTTP/1.1 200 OK"
+2025-04-12 20:41:56,383 - INFO - Бот инициализирован.
+2025-04-12 20:41:56,384 - INFO - Бот начал прослушивание сообщений...
+2025-04-12 20:41:56,621 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:41:56,683 - INFO - [-4743255941] Werymag: @werymagBot проверка истории общения, что я сказал...
+2025-04-12 20:41:56,683 - INFO - [-4743255941] Werymag: @werymagBot где ответ...
+2025-04-12 20:41:56,684 - INFO - [-745262717] Rozhok: "Пулл\u2011реквест на 300 строк сгенеренного кода от мо...
+2025-04-12 20:41:56,689 - INFO - [-745262717] Werymag: Ну кстати по мне да, самя большая опасность агенто...
+2025-04-12 20:41:56,690 - INFO - [-745262717] pi_mezon: чё за куколдизм
+Я не анти\u2011ИИ и не неолуддит — я са...
+2025-04-12 20:41:56,691 - INFO - [-745262717] Werymag: То есть будут быстро "решать" задачи, делать ПР, п...
+2025-04-12 20:41:56,692 - INFO - [-745262717] Werymag: И при этом не признаваться в этом...
+2025-04-12 20:41:56,693 - INFO - [-745262717] pi_mezon: Пиши комментарии к сгенерированному коду. Если ты ...
+2025-04-12 20:41:56,693 - INFO - [-745262717] pi_mezon: да достаточно с стекоферфлоу самый залайканный взя...
+2025-04-12 20:41:56,694 - INFO - [-745262717] Werymag: Вообще не показатель, проблема в том, что Курсор п...
+2025-04-12 20:41:56,694 - INFO - [-745262717] pi_mezon: причем тут курсор, люди пишут про то что раньше ес...
+2025-04-12 20:41:56,695 - INFO - [-745262717] Werymag: Я про комментарий, что написание комментария  не з...
+2025-04-12 20:41:56,696 - INFO - [-745262717] pi_mezon: ну а ещё можно невидимые символы вставлять в кодов...
+2025-04-12 20:41:56,696 - INFO - [-745262717] pi_mezon: суть в том что потом когда на собеседовании попрос...
+2025-04-12 20:41:56,697 - INFO - [-745262717] Werymag: Ну тут уже проблемы организации взаимодействия и д...
+2025-04-12 20:41:56,697 - INFO - [-745262717] pi_mezon: ну в статье описана данная проблема - присылают ку...
+2025-04-12 20:41:56,698 - INFO - [-745262717] Werymag: Ну да, и по мне это по сути ключевая проблема неро...
+2025-04-12 20:41:56,699 - INFO - [-745262717] Werymag: Думаю некоторые из-за этого будут тупо запрещать И...
+2025-04-12 20:41:56,700 - INFO - [-745262717] Werymag: Но чем больше я пользуюсь - тем больше понимаю, чт...
+2025-04-12 20:41:56,700 - INFO - [-745262717] pi_mezon: осталось только начать проходить нормально ревью с...
+2025-04-12 20:41:56,700 - INFO - [-745262717] Werymag: По крайней мере все действия, где надо "повторить ...
+2025-04-12 20:41:56,701 - INFO - [-745262717] Werymag: А тут интересный вопрос, может в больших проектах ...
+2025-04-12 20:41:56,702 - INFO - [-745262717] Werymag: И ключевая фишка, что за счет нейросетей "мелкие" ...
+2025-04-12 20:41:56,715 - INFO - [-745262717] pi_mezon: как говорится, главное не размер а умение...
+2025-04-12 20:41:56,716 - INFO - [-745262717] Werymag: То есть с одной стороны будет целая команда в 10+ ...
+2025-04-12 20:41:56,717 - INFO - [-745262717] pi_mezon: если это средние проекты будут вести себя непонятн...
+2025-04-12 20:41:56,718 - INFO - [-745262717] Werymag: Для суперотвественных вещей останутся команды, а д...
+2025-04-12 20:41:56,719 - INFO - [-745262717] Werymag: ИИ хорошо ищет ошибки...
+2025-04-12 20:41:56,720 - INFO - [-745262717] Werymag: По сути разрабу надо думать не о коде, а о архитек...
+2025-04-12 20:41:56,720 - INFO - [-745262717] pi_mezon: которые включены в обучающую выборку...
+2025-04-12 20:41:56,721 - INFO - [-745262717] Werymag: Там выборка - весь код мира...
+2025-04-12 20:41:56,721 - INFO - [-745262717] pi_mezon: VladimirFarshatov
+2 часа назад
+
+Уже наблюдал как г...
+2025-04-12 20:41:56,721 - INFO - [-745262717] Werymag: Если архитектура приложения продумана правильно, т...
+2025-04-12 20:41:56,721 - INFO - [-745262717] pi_mezon: удачи...
+2025-04-12 20:41:56,721 - INFO - [-745262717] pi_mezon: продумать архитекруту приложения когда разработка ...
+2025-04-12 20:41:56,723 - INFO - [-745262717] Werymag: Сразу видно - автор такой себе, норм моделям насра...
+2025-04-12 20:41:56,723 - INFO - [-745262717] Werymag: хоть на узбекском пиши...
+2025-04-12 20:41:56,723 - INFO - [-745262717] pi_mezon: ссылку на пруф...
+2025-04-12 20:41:56,723 - INFO - [-745262717] Werymag: Ну значит будут новые способы и циклы разрабокти...
+2025-04-12 20:41:56,724 - INFO - [-745262717] pi_mezon: казалось что чем больше обучающего материала на яз...
+2025-04-12 20:41:56,724 - INFO - [-745262717] Werymag: Да где-то в описании самих ИИ видел в ютуб ролике,...
+2025-04-12 20:41:56,725 - INFO - [-745262717] Werymag: Нет, все болшщие языковые модели теперь независимы...
+2025-04-12 20:41:56,726 - INFO - [-745262717] Werymag: Там какой-то хитрый "свой" язык используется...
+2025-04-12 20:41:56,726 - INFO - [-745262717] pi_mezon: именно из-за этой независимости модели от яндекса ...
+2025-04-12 20:41:56,726 - INFO - [-745262717] Werymag: хз в чём они обгоняют...
+2025-04-12 20:41:56,727 - INFO - [-745262717] Werymag: если что - речь о последних (год-два) моделях, это...
+2025-04-12 20:41:56,727 - INFO - [-745262717] pi_mezon: https://habr.com/ru/articles/856436/...
+2025-04-12 20:41:56,727 - INFO - [-745262717] pi_mezon: Заключение
+
+На основе двух вариантов оценки мы дел...
+2025-04-12 20:41:56,728 - INFO - [-745262717] Werymag: Вот что тут важно - так это дата обучения, вчера м...
+2025-04-12 20:41:56,729 - INFO - Получено 49 новых сообщений. Общее количество необработанных: 49
+2025-04-12 20:41:56,730 - INFO - Обнаружено 2 сообщений непосредственно для бота.
+2025-04-12 20:41:56,731 - INFO - Обработка сообщения для бота от Werymag в чате -4743255941: "@werymagBot проверка истории общения, что я сказал..."
+2025-04-12 20:41:56,731 - INFO - Создана история для нового пользователя: Werymag
+2025-04-12 20:41:56,733 - INFO - Подготовка и отправка запроса к ИИ (Ollama) для Werymag...
+2025-04-12 20:41:57,992 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 502 Bad Gateway"
+2025-04-12 20:41:57,995 - ERROR - Ошибка при обработке личного сообщения для Werymag в чате -4743255941:  (status code: 502)
+Traceback (most recent call last):
+  File "Y:\PythonScripts\AI\tg_ai_bot\main.py", line 172, in questions_for_bot
+    response = ollama_client.chat(
+               ^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\ollama\_client.py", line 333, in chat
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\ollama\_client.py", line 178, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\ollama\_client.py", line 122, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError:  (status code: 502)
+2025-04-12 20:41:58,102 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/sendMessage "HTTP/1.1 200 OK"
+2025-04-12 20:41:58,105 - INFO - Сообщение об ошибке отправлено пользователю Werymag.
+2025-04-12 20:41:58,106 - INFO - Обработка сообщения для бота от Werymag в чате -4743255941: "@werymagBot где ответ..."
+2025-04-12 20:41:58,107 - INFO - Подготовка и отправка запроса к ИИ (Ollama) для Werymag...
+2025-04-12 20:41:59,184 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 502 Bad Gateway"
+2025-04-12 20:41:59,186 - ERROR - Ошибка при обработке личного сообщения для Werymag в чате -4743255941:  (status code: 502)
+Traceback (most recent call last):
+  File "Y:\PythonScripts\AI\tg_ai_bot\main.py", line 172, in questions_for_bot
+    response = ollama_client.chat(
+               ^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\ollama\_client.py", line 333, in chat
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\ollama\_client.py", line 178, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\ollama\_client.py", line 122, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError:  (status code: 502)
+2025-04-12 20:41:59,279 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/sendMessage "HTTP/1.1 200 OK"
+2025-04-12 20:41:59,282 - INFO - Сообщение об ошибке отправлено пользователю Werymag.
+2025-04-12 20:42:00,389 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:42:00,435 - INFO - [-745262717] pi_mezon: статья 6 ноя 2024...
+2025-04-12 20:42:00,437 - INFO - [-745262717] Werymag: Думаю там не просто языковые модели - там ещё всяк...
+2025-04-12 20:42:00,438 - INFO - [-745262717] Werymag: https://www.youtube.com/watch?v=wCgW0cdpEKg&ab_cha...
+2025-04-12 20:42:00,439 - INFO - [-745262717] pi_mezon: ну просто ты уже не первый раз делаешь сильное утв...
+2025-04-12 20:42:00,440 - INFO - [-745262717] Werymag: А потом выясняется, что ты сам решил что я сделал ...
+2025-04-12 20:42:00,441 - INFO - [-745262717] pi_mezon: ну оставим это вопрос для сторонних читателей прим...
+2025-04-12 20:42:00,442 - INFO - [-745262717] pi_mezon: или к этому...
+2025-04-12 20:42:00,443 - INFO - [-745262717] Werymag: Ну так я сразу сделал уточнения - большие и послед...
+2025-04-12 20:42:00,443 - INFO - [-745262717] pi_mezon: ххаахахах...
+2025-04-12 20:42:00,444 - INFO - [-745262717] pi_mezon: корректное было бы указание числа параметров и дат...
+2025-04-12 20:42:00,444 - INFO - [-745262717] Werymag: И да, для них я видел это утверждение уже кучу раз...
+2025-04-12 20:42:00,445 - INFO - [-745262717] Werymag: Ну я даже дату указал)...
+2025-04-12 20:42:00,445 - INFO - [-745262717] pi_mezon: чтобы потом статьи от 6 ноября не ставили вопросы ...
+2025-04-12 20:42:00,446 - INFO - [-745262717] Werymag: Ну и если что, я вёл речь только про генерацию код...
+2025-04-12 20:42:00,446 - INFO - [-745262717] Werymag: Ну или при кодинге на 1С...
+2025-04-12 20:42:00,446 - INFO - [-745262717] pi_mezon: а вот эти особенности хорошо бы указывать когда де...
+2025-04-12 20:42:00,447 - INFO - [-745262717] Werymag: хз где я делал утверждения космической важности, н...
+2025-04-12 20:42:00,448 - INFO - [-745262717] pi_mezon: я привёл примеры...
+2025-04-12 20:42:00,448 - INFO - [-745262717] pi_mezon: то что когда начали выяснят то полезли подробности...
+2025-04-12 20:42:00,449 - INFO - [-745262717] pi_mezon: кмк корректнее было бы это указать в исходном утве...
+2025-04-12 20:42:00,450 - INFO - [-745262717] Werymag: Там можно доебаться, "а на Эсперанто тоже норм пой...
+2025-04-12 20:42:00,451 - INFO - [-745262717] Werymag: Ага, сразу, 5 страниц уточнений приложить, фиг ли...
+2025-04-12 20:42:00,452 - INFO - [-745262717] pi_mezon: ну тогда не делать утверждения потрясающие своей п...
+2025-04-12 20:42:00,453 - INFO - [-745262717] Werymag: этож с какого-то хрена вселенское утверждение...
+2025-04-12 20:42:00,453 - INFO - [-745262717] pi_mezon: иначе не так поймут...
+2025-04-12 20:42:00,454 - INFO - [-745262717] pi_mezon: я привел примеры, читатели сами сделают вывод...
+2025-04-12 20:42:00,455 - INFO - [-745262717] Werymag: Я просмотрел уже штук 20 видео на эту тему, и в ку...
+2025-04-12 20:42:00,456 - INFO - [-745262717] Werymag: Какие тебе ещё уточнения надо дать?...
+2025-04-12 20:42:00,457 - INFO - [-745262717] Werymag: Это докалёбы ради докалёбов...
+2025-04-12 20:42:00,457 - INFO - [-745262717] pi_mezon: да мне от тебя ничего не нужно, пиши как хочешь
+то...
+2025-04-12 20:42:00,457 - INFO - [-745262717] Werymag: Да я как бы никаких вселенстких тезисов не делал. ...
+2025-04-12 20:42:00,458 - INFO - [-4743255941] Werymag: @werymagBot ПРоверка...
+2025-04-12 20:42:00,458 - INFO - Получено 32 новых сообщений. Общее количество необработанных: 81
+2025-04-12 20:42:00,460 - INFO - Обнаружено 1 сообщений непосредственно для бота.
+2025-04-12 20:42:00,460 - INFO - Обработка сообщения для бота от Werymag в чате -4743255941: "@werymagBot ПРоверка..."
+2025-04-12 20:42:00,462 - INFO - Подготовка и отправка запроса к ИИ (Ollama) для Werymag...
+2025-04-12 20:42:01,538 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 502 Bad Gateway"
+2025-04-12 20:42:01,540 - ERROR - Ошибка при обработке личного сообщения для Werymag в чате -4743255941:  (status code: 502)
+Traceback (most recent call last):
+  File "Y:\PythonScripts\AI\tg_ai_bot\main.py", line 172, in questions_for_bot
+    response = ollama_client.chat(
+               ^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\ollama\_client.py", line 333, in chat
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\ollama\_client.py", line 178, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\ollama\_client.py", line 122, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError:  (status code: 502)
+2025-04-12 20:42:01,642 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/sendMessage "HTTP/1.1 200 OK"
+2025-04-12 20:42:01,645 - INFO - Сообщение об ошибке отправлено пользователю Werymag.
+2025-04-12 20:42:12,726 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:42:23,794 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:42:45,202 - INFO - Приложение запущено!
+2025-04-12 20:42:49,227 - INFO - Инициализация бота...
+2025-04-12 20:42:51,389 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getMe "HTTP/1.1 200 OK"
+2025-04-12 20:42:51,392 - INFO - Бот инициализирован.
+2025-04-12 20:42:51,393 - INFO - Бот начал прослушивание сообщений...
+2025-04-12 20:43:01,592 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:43:12,670 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:43:23,753 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:43:34,835 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:43:45,907 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:43:56,987 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:44:08,063 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:44:19,144 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:44:30,216 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:44:41,332 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:44:52,413 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:45:03,501 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:45:14,578 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:45:25,641 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:45:36,723 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:45:47,812 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:45:58,897 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:46:09,976 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:46:21,059 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:46:32,126 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:46:43,206 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:46:54,273 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:47:05,347 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:47:16,430 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:47:27,510 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:47:38,581 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:47:49,658 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:48:00,732 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:48:11,812 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:48:22,887 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:48:33,955 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:48:45,026 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:48:56,112 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:49:07,194 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:49:18,268 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:49:29,338 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:49:42,829 - INFO - Приложение запущено!
+2025-04-12 20:49:43,884 - INFO - Инициализация бота...
+2025-04-12 20:49:46,494 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getMe "HTTP/1.1 200 OK"
+2025-04-12 20:49:46,497 - INFO - Бот инициализирован.
+2025-04-12 20:49:46,498 - INFO - Бот начал прослушивание сообщений...
+2025-04-12 20:49:56,700 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:50:07,799 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:50:18,872 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:50:29,953 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:50:41,044 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:50:52,120 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:50:53,191 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:50:53,196 - INFO - [-4743255941] Werymag: @werymagBot ghjdthrf...
+2025-04-12 20:50:53,197 - INFO - Получено 1 новых сообщений. Общее количество необработанных: 1
+2025-04-12 20:50:53,198 - INFO - Обнаружено 1 сообщений непосредственно для бота.
+2025-04-12 20:50:53,198 - INFO - Обработка сообщения для бота от Werymag в чате -4743255941: "@werymagBot ghjdthrf..."
+2025-04-12 20:50:53,199 - INFO - Создана история для нового пользователя: Werymag
+2025-04-12 20:50:53,200 - INFO - Подготовка и отправка запроса к ИИ (Ollama) для Werymag...
+2025-04-12 20:50:53,201 - INFO - Текст сообщений для Ollama: [{'role': 'system', 'content': 'Ты телеграм бот с именем werymagBot, помогающий разрешать споры и анализировать диалоги. Ты отвечаешь на вопросы пользователей или отвечаешь, когда тебя упоминают в диалоге. При ответе учитывай контекст диалога. Диалог представляет из себя список сообщений, где сначала написаны никнеймы, затем их сообщения. Не цитируй сообщения и диалог в своем ответе. Оформляй ответы с учётом вставки в чат Telegram и разметкой в стиле MARKDOWN. Далее идёт диалог между пользователями: Werymag: @werymagBot ghjdthrf'}, {'role': 'user', 'content': '@werymagBot ghjdthrf'}]
+2025-04-12 20:50:54,286 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 502 Bad Gateway"
+2025-04-12 20:50:54,288 - ERROR - Ошибка при обработке личного сообщения для Werymag в чате -4743255941:  (status code: 502)
+Traceback (most recent call last):
+  File "Y:\PythonScripts\AI\tg_ai_bot\main.py", line 172, in questions_for_bot
+    response = ollama_client.chat(
+               ^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\ollama\_client.py", line 333, in chat
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\ollama\_client.py", line 178, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\ollama\_client.py", line 122, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError:  (status code: 502)
+2025-04-12 20:50:54,580 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/sendMessage "HTTP/1.1 200 OK"
+2025-04-12 20:50:54,582 - INFO - Сообщение об ошибке отправлено пользователю Werymag.
+2025-04-12 20:51:05,679 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:51:12,268 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:51:12,274 - INFO - [-4743255941] Werymag: wer...
+2025-04-12 20:51:12,276 - INFO - Получено 1 новых сообщений. Общее количество необработанных: 2
+2025-04-12 20:51:12,277 - INFO - Обнаружено 1 сообщений непосредственно для бота.
+2025-04-12 20:51:16,471 - INFO - Обработка сообщения для бота от Werymag в чате -4743255941: "wer..."
+2025-04-12 20:51:19,047 - INFO - Подготовка и отправка запроса к ИИ (Ollama) для Werymag...
+2025-04-12 20:51:57,991 - INFO - Текст сообщений для Ollama: [{'role': 'system', 'content': 'Ты телеграм бот с именем werymagBot, помогающий разрешать споры и анализировать диалоги. Ты отвечаешь на вопросы пользователей или отвечаешь, когда тебя упоминают в диалоге. При ответе учитывай контекст диалога. Диалог представляет из себя список сообщений, где сначала написаны никнеймы, затем их сообщения. Не цитируй сообщения и диалог в своем ответе. Оформляй ответы с учётом вставки в чат Telegram и разметкой в стиле MARKDOWN. Далее идёт диалог между пользователями: Werymag: @werymagBot ghjdthrf\nWerymag: wer'}, {'role': 'user', 'content': '@werymagBot ghjdthrf'}, {'role': 'user', 'content': 'wer'}]
+2025-04-12 20:52:37,676 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 502 Bad Gateway"
+2025-04-12 20:55:43,626 - ERROR - Ошибка при обработке личного сообщения для Werymag в чате -4743255941:  (status code: 502)
+Traceback (most recent call last):
+  File "Y:\PythonScripts\AI\tg_ai_bot\main.py", line 172, in questions_for_bot
+    response = ollama_client.chat(
+               ^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\ollama\_client.py", line 333, in chat
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\ollama\_client.py", line 178, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\ollama\_client.py", line 122, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError:  (status code: 502)
+2025-04-12 20:55:43,889 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/sendMessage "HTTP/1.1 200 OK"
+2025-04-12 20:55:43,891 - INFO - Сообщение об ошибке отправлено пользователю Werymag.
+2025-04-12 20:55:52,735 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:55:52,739 - INFO - [-4743255941] Werymag: 123...
+2025-04-12 20:55:52,740 - INFO - Получено 1 новых сообщений. Общее количество необработанных: 3
+2025-04-12 20:55:52,741 - INFO - Обнаружено 1 сообщений непосредственно для бота.
+2025-04-12 20:56:00,507 - INFO - Обработка сообщения для бота от Werymag в чате -4743255941: "123..."
+2025-04-12 20:56:02,751 - INFO - Подготовка и отправка запроса к ИИ (Ollama) для Werymag...
+2025-04-12 20:56:07,823 - INFO - Текст сообщений для Ollama: [{'role': 'system', 'content': 'Ты телеграм бот с именем werymagBot, помогающий разрешать споры и анализировать диалоги. Ты отвечаешь на вопросы пользователей или отвечаешь, когда тебя упоминают в диалоге. При ответе учитывай контекст диалога. Диалог представляет из себя список сообщений, где сначала написаны никнеймы, затем их сообщения. Не цитируй сообщения и диалог в своем ответе. Оформляй ответы с учётом вставки в чат Telegram и разметкой в стиле MARKDOWN. Далее идёт диалог между пользователями: Werymag: @werymagBot ghjdthrf\nWerymag: wer\nWerymag: 123'}, {'role': 'user', 'content': '@werymagBot ghjdthrf'}, {'role': 'user', 'content': 'wer'}, {'role': 'user', 'content': '123'}]
+2025-04-12 20:56:10,827 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 502 Bad Gateway"
+2025-04-12 20:56:22,386 - ERROR - Ошибка при обработке личного сообщения для Werymag в чате -4743255941:  (status code: 502)
+Traceback (most recent call last):
+  File "Y:\PythonScripts\AI\tg_ai_bot\main.py", line 172, in questions_for_bot
+    response = ollama_client.chat(
+               ^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\ollama\_client.py", line 333, in chat
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\ollama\_client.py", line 178, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\ollama\_client.py", line 122, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError:  (status code: 502)
+2025-04-12 20:57:04,637 - ERROR - Не удалось отправить сообщение об ошибке пользователю Werymag в чат -4743255941: httpx.ConnectError: All connection attempts failed
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 277, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "Y:\PythonScripts\AI\tg_ai_bot\main.py", line 201, in questions_for_bot
+    await config.bot.send_message(
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 1091, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 803, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 304, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 301, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2025-04-12 20:57:09,777 - ERROR - Ошибка при получении обновлений (get_updates): httpx.ConnectError: All connection attempts failed
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 277, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "Y:\PythonScripts\AI\tg_ai_bot\main.py", line 89, in get_updates
+    updates = await config.bot.get_updates(offset=offset, limit=50, timeout=10)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 4593, in get_updates
+    await self._post(
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 304, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 301, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2025-04-12 20:57:12,835 - ERROR - Ошибка при получении обновлений (get_updates): httpx.ConnectError: All connection attempts failed
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 277, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "Y:\PythonScripts\AI\tg_ai_bot\main.py", line 89, in get_updates
+    updates = await config.bot.get_updates(offset=offset, limit=50, timeout=10)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 4593, in get_updates
+    await self._post(
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 304, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 301, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2025-04-12 20:57:15,874 - ERROR - Ошибка при получении обновлений (get_updates): httpx.ConnectError: All connection attempts failed
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 277, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "Y:\PythonScripts\AI\tg_ai_bot\main.py", line 89, in get_updates
+    updates = await config.bot.get_updates(offset=offset, limit=50, timeout=10)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 4593, in get_updates
+    await self._post(
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 304, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 301, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2025-04-12 20:57:18,934 - ERROR - Ошибка при получении обновлений (get_updates): httpx.ConnectError: All connection attempts failed
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 277, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "Y:\PythonScripts\AI\tg_ai_bot\main.py", line 89, in get_updates
+    updates = await config.bot.get_updates(offset=offset, limit=50, timeout=10)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 4593, in get_updates
+    await self._post(
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 304, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 301, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2025-04-12 20:57:21,997 - ERROR - Ошибка при получении обновлений (get_updates): httpx.ConnectError: All connection attempts failed
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 277, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "Y:\PythonScripts\AI\tg_ai_bot\main.py", line 89, in get_updates
+    updates = await config.bot.get_updates(offset=offset, limit=50, timeout=10)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 4593, in get_updates
+    await self._post(
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 304, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 301, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2025-04-12 20:57:25,039 - ERROR - Ошибка при получении обновлений (get_updates): httpx.ConnectError: All connection attempts failed
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 277, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "Y:\PythonScripts\AI\tg_ai_bot\main.py", line 89, in get_updates
+    updates = await config.bot.get_updates(offset=offset, limit=50, timeout=10)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 4593, in get_updates
+    await self._post(
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 304, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 301, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2025-04-12 20:57:28,096 - ERROR - Ошибка при получении обновлений (get_updates): httpx.ConnectError: All connection attempts failed
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 277, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "Y:\PythonScripts\AI\tg_ai_bot\main.py", line 89, in get_updates
+    updates = await config.bot.get_updates(offset=offset, limit=50, timeout=10)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 4593, in get_updates
+    await self._post(
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 304, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 301, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2025-04-12 20:57:31,140 - ERROR - Ошибка при получении обновлений (get_updates): httpx.ConnectError: All connection attempts failed
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 277, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "Y:\PythonScripts\AI\tg_ai_bot\main.py", line 89, in get_updates
+    updates = await config.bot.get_updates(offset=offset, limit=50, timeout=10)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 4593, in get_updates
+    await self._post(
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 304, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 301, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2025-04-12 20:57:34,222 - ERROR - Ошибка при получении обновлений (get_updates): httpx.ConnectError: All connection attempts failed
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 277, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "Y:\PythonScripts\AI\tg_ai_bot\main.py", line 89, in get_updates
+    updates = await config.bot.get_updates(offset=offset, limit=50, timeout=10)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 4593, in get_updates
+    await self._post(
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 304, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 301, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2025-04-12 20:57:37,271 - ERROR - Ошибка при получении обновлений (get_updates): httpx.ConnectError: All connection attempts failed
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 277, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "Y:\PythonScripts\AI\tg_ai_bot\main.py", line 89, in get_updates
+    updates = await config.bot.get_updates(offset=offset, limit=50, timeout=10)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 4593, in get_updates
+    await self._post(
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 304, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 301, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2025-04-12 20:57:40,319 - ERROR - Ошибка при получении обновлений (get_updates): httpx.ConnectError: All connection attempts failed
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 277, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "Y:\PythonScripts\AI\tg_ai_bot\main.py", line 89, in get_updates
+    updates = await config.bot.get_updates(offset=offset, limit=50, timeout=10)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 4593, in get_updates
+    await self._post(
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 304, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 301, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2025-04-12 20:57:43,368 - ERROR - Ошибка при получении обновлений (get_updates): httpx.ConnectError: All connection attempts failed
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 277, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "Y:\PythonScripts\AI\tg_ai_bot\main.py", line 89, in get_updates
+    updates = await config.bot.get_updates(offset=offset, limit=50, timeout=10)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 4593, in get_updates
+    await self._post(
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 304, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 301, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2025-04-12 20:57:46,427 - ERROR - Ошибка при получении обновлений (get_updates): httpx.ConnectError: All connection attempts failed
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 277, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "Y:\PythonScripts\AI\tg_ai_bot\main.py", line 89, in get_updates
+    updates = await config.bot.get_updates(offset=offset, limit=50, timeout=10)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 4593, in get_updates
+    await self._post(
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 304, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 301, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2025-04-12 20:57:49,494 - ERROR - Ошибка при получении обновлений (get_updates): httpx.ConnectError: All connection attempts failed
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 277, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "Y:\PythonScripts\AI\tg_ai_bot\main.py", line 89, in get_updates
+    updates = await config.bot.get_updates(offset=offset, limit=50, timeout=10)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 4593, in get_updates
+    await self._post(
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 304, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 301, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2025-04-12 20:57:52,556 - ERROR - Ошибка при получении обновлений (get_updates): httpx.ConnectError: All connection attempts failed
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 277, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "Y:\PythonScripts\AI\tg_ai_bot\main.py", line 89, in get_updates
+    updates = await config.bot.get_updates(offset=offset, limit=50, timeout=10)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 4593, in get_updates
+    await self._post(
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 304, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 301, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2025-04-12 20:57:55,627 - ERROR - Ошибка при получении обновлений (get_updates): httpx.ConnectError: All connection attempts failed
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 277, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "Y:\PythonScripts\AI\tg_ai_bot\main.py", line 89, in get_updates
+    updates = await config.bot.get_updates(offset=offset, limit=50, timeout=10)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 4593, in get_updates
+    await self._post(
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 304, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 301, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2025-04-12 20:57:58,686 - ERROR - Ошибка при получении обновлений (get_updates): httpx.ConnectError: All connection attempts failed
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 277, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "Y:\PythonScripts\AI\tg_ai_bot\main.py", line 89, in get_updates
+    updates = await config.bot.get_updates(offset=offset, limit=50, timeout=10)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 4593, in get_updates
+    await self._post(
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 304, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 301, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2025-04-12 20:58:01,756 - ERROR - Ошибка при получении обновлений (get_updates): httpx.ConnectError: All connection attempts failed
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 277, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "Y:\PythonScripts\AI\tg_ai_bot\main.py", line 89, in get_updates
+    updates = await config.bot.get_updates(offset=offset, limit=50, timeout=10)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 4593, in get_updates
+    await self._post(
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 304, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "y:\PythonScripts\AI\tg_ai_bot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 301, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2025-04-12 20:58:09,305 - INFO - Приложение запущено!
+2025-04-12 20:58:09,613 - INFO - Инициализация бота...
+2025-04-12 20:58:10,451 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getMe "HTTP/1.1 200 OK"
+2025-04-12 20:58:10,455 - INFO - Бот инициализирован.
+2025-04-12 20:58:10,456 - INFO - Бот начал прослушивание сообщений...
+2025-04-12 20:58:10,632 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/getUpdates "HTTP/1.1 200 OK"
+2025-04-12 20:58:10,637 - INFO - [-4743255941] Werymag: 123...
+2025-04-12 20:58:10,639 - INFO - [-4743255941] Werymag: 321...
+2025-04-12 20:58:10,640 - INFO - [-4743255941] Werymag: 123...
+2025-04-12 20:58:10,641 - INFO - [-4743255941] Werymag: @werymagBot  sdfsd...
+2025-04-12 20:58:10,642 - INFO - Получено 4 новых сообщений. Общее количество необработанных: 4
+2025-04-12 20:58:10,643 - INFO - Обнаружено 3 сообщений непосредственно для бота.
+2025-04-12 20:58:13,017 - INFO - Обработка сообщения для бота от Werymag в чате -4743255941: "123..."
+2025-04-12 20:58:13,180 - INFO - Создана история для нового пользователя: Werymag
+2025-04-12 20:58:13,465 - INFO - Подготовка и отправка запроса к ИИ (Ollama) для Werymag...
+2025-04-12 20:58:16,060 - INFO - Текст сообщений для Ollama: [{'role': 'system', 'content': 'Ты телеграм бот с именем werymagBot, помогающий разрешать споры и анализировать диалоги. Ты отвечаешь на вопросы пользователей или отвечаешь, когда тебя упоминают в диалоге. При ответе учитывай контекст диалога. Диалог представляет из себя список сообщений, где сначала написаны никнеймы, затем их сообщения. Не цитируй сообщения и диалог в своем ответе. Оформляй ответы с учётом вставки в чат Telegram и разметкой в стиле MARKDOWN. Далее идёт диалог между пользователями: Werymag: 123\nWerymag: 321\nWerymag: 123\nWerymag: @werymagBot  sdfsd'}, {'role': 'user', 'content': '123'}]
+2025-04-12 20:58:31,607 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-12 20:58:57,753 - INFO - Получен ответ от ИИ для Werymag: "Привет! Вижу, что ты повторяешь число "123". Что-т..."
+2025-04-12 20:59:00,128 - INFO - Отправка ответа ИИ пользователю Werymag в чат -4743255941.
+2025-04-12 20:59:02,183 - INFO - HTTP Request: POST https://api.telegram.org/bot5783330360:AAGd5cok3mhB0_iAIF6mP4FLM4Nf5lpiZC0/sendMessage "HTTP/1.1 200 OK"
+2025-04-12 21:15:04,057 - INFO - Приложение остановлено вручную (KeyboardInterrupt).
+2025-04-12 21:15:04,058 - INFO - Приложение завершено!
