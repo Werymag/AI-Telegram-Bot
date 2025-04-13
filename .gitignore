@@ -148,9 +148,10 @@ cython_debug/
 # VSCode settings folder
 .vscode/
 
-# Logs folder requested by user
-logs/ 
-logs
+# Folders requested by user
+data/logs/
+data/history/
+data/configs/
 *log
 
 *.env

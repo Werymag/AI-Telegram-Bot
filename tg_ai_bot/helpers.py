@@ -1,68 +1,58 @@
 import json
 import html
+import os
+import logging
+from collections import deque
 
-def format_object_for_telegram(data, max_length=4000):
+def append_message_to_history(message, history_file):
     """
-    Преобразует объект Python (dict, list, etc.) в HTML-форматированную строку
-    для Telegram, разбивая на части при необходимости.
+    Дописывает одно сообщение в файл истории.
+    Каждое сообщение сохраняется как отдельная JSON-строка.
 
     Args:
-        data: Объект для форматирования.
-        max_length (int): Максимальная длина одного сообщения Telegram (по умолчанию 4000).
-
-    Returns:
-        list[str]: Список строк, каждая из которых готова к отправке
-                   в Telegram (в формате HTML).
+        message (dict): Словарь сообщения.
+        history_file (str): Путь к файлу истории.
     """
     try:
-        # Используем json.dumps для красивого форматирования с отступами
-        # ensure_ascii=False важен для корректного отображения кириллицы
-        pretty_text = json.dumps(data, indent=4, ensure_ascii=False, sort_keys=True)
-    except TypeError:
-        # Если объект не сериализуется в JSON, используем repr
-        pretty_text = repr(data)
+        with open(history_file, 'a', encoding='utf-8') as f:
+            json_string = json.dumps(message, ensure_ascii=False)
+            f.write(json_string + '\n')
+    except Exception as e:
+        logging.error(f"Ошибка дозаписи сообщения в файл истории {history_file}: {e}", exc_info=True)
 
-    # Экранируем HTML-спецсимволы
-    escaped_text = html.escape(pretty_text)
+def load_message_history(history_file, max_messages=200):
+    """
+    Загружает последние N сообщений из файла истории.
+    Каждая строка файла считается отдельным JSON-сообщением.
 
-    # Базовая длина тегов <pre><code>...</code></pre>
-    tags_len = len("<pre><code>") + len("</code></pre>")
-    allowed_text_len = max_length - tags_len
+    Args:
+        history_file (str): Путь к файлу истории.
+        max_messages (int): Максимальное количество сообщений для загрузки.
 
-    if allowed_text_len <= 0:
-        print("Warning: max_length is too small to fit even the HTML tags.")
-        return []
-
-    # Проверяем, помещается ли все сообщение целиком
-    if len(escaped_text) <= allowed_text_len:
-        return [f"<pre><code>{escaped_text}</code></pre>"]
-
-    # Разбиваем текст на части
+    Returns:
+        list: Список загруженных сообщений (от старых к новым) или пустой список при ошибке/отсутствии файла.
+    """
     messages = []
-    lines = escaped_text.split('\n')
-    current_chunk = ""
+    try:
+        if os.path.exists(history_file):
+            with open(history_file, 'r', encoding='utf-8') as f:
+                # Используем deque для эффективного хранения последних N строк
+                last_lines = deque(f, maxlen=max_messages)
 
-    for line in lines:
-        line_len_with_newline = len(line) + (1 if current_chunk else 0)
+            for i, line in enumerate(last_lines):
+                try:
+                    message = json.loads(line.strip())
+                    messages.append(message)
+                except json.JSONDecodeError:
+                    # Логируем номер строки относительно прочитанных последних N
+                    logging.warning(f"Ошибка декодирования JSON в строке {i+1}/{len(last_lines)} файла истории {history_file}. Строка пропущена: {line.strip()[:100]}...")
+                except Exception as parse_error:
+                    logging.error(f"Неизвестная ошибка при парсинге строки {i+1}/{len(last_lines)} из истории {history_file}: {parse_error}. Строка: {line.strip()[:100]}...", exc_info=True)
 
-        if len(current_chunk) + line_len_with_newline <= allowed_text_len:
-            if current_chunk:
-                current_chunk += "\n"
-            current_chunk += line
+            logging.info(f"Загружено {len(messages)}/{len(last_lines)} последних сообщений из истории {history_file}.")
         else:
-            if current_chunk:
-                messages.append(f"<pre><code>{current_chunk}</code></pre>")
-            
-            if len(line) <= allowed_text_len:
-                 current_chunk = line
-            else:
-                 print(f"Warning: Single line is too long ({len(line)} chars), splitting harshly.")
-                 for i in range(0, len(line), allowed_text_len):
-                     sub_line = line[i:i+allowed_text_len]
-                     messages.append(f"<pre><code>{sub_line}</code></pre>")
-                 current_chunk = "" 
+            logging.info(f"Файл истории {history_file} не найден, начинаем с пустой истории.")
+    except Exception as e:
+        logging.error(f"Не удалось загрузить историю сообщений из {history_file}: {e}. Начинаем с пустой истории.", exc_info=True)
+    return messages
 
-    if current_chunk:
-        messages.append(f"<pre><code>{current_chunk}</code></pre>")
-
-    return messages 
